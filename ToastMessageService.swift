@@ -1,9 +1,7 @@
 //
 //  ToastMessageService.swift
-//  NemligApp
 //
 //  Created by Yaromyr Oleksyshyn on 30.03.2021.
-//  Copyright © 2021 NEMLIG.COM A/S. All rights reserved.
 //
 
 import UIKit
