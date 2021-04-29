@@ -17,6 +17,7 @@ protocol ToastMessageService {
 }
 
 extension ToastMessageService {
+	
 	/// Calculates an offset for cases when there is a navigation controller
 	///
 	/// - Parameter navigationController: a current navigation controller
