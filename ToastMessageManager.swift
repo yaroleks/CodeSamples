@@ -25,17 +25,6 @@ final class ToastMessageManager: ToastMessageService {
 		setupToastMessageController(info)
 	}
 
-	func topOffset(for navigationController: UINavigationController?, in window: UIWindow?) -> CGFloat? {
-		guard let navigationController = navigationController,
-			  let window = window else {
-			return nil
-		}
-		let maxY = navigationController.navigationBar.frame.maxY
-
-		let origin = CGPoint(x: 0, y: maxY)
-		return navigationController.view.convert(origin, to: window).y
-	}
-
 	// MARK: - Private functions
 	private func toastMessageView(_ info: ToastMessageInfo) -> ToastMessageView {
 		let toast = ToastMessageView.loadFromNib()
