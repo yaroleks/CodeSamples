@@ -31,5 +31,6 @@ extension ToastMessageService {
 
 		let origin = CGPoint(x: 0, y: maxY)
 		return navigationController.view.convert(origin, to: window).y
+		}
 	}
 }
